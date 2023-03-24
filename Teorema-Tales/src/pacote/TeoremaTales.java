@@ -1,5 +1,6 @@
+package pacote;
+
 import java.util.Random;
-import java.lang.Iterable;
 public class TeoremaTales {
     public static void main(String[] args) {
         String figura =
@@ -18,10 +19,9 @@ public class TeoremaTales {
 
         Random random = new Random();
         int numeroAleatorio = random.nextInt();
-        System.out.println("Numero Aleatorio e " + numeroAleatorio);
+        System.out.println(figura);
 
         String stringNumero = Integer.toString(numeroAleatorio);
         System.out.println(stringNumero);
-
     }
 }
